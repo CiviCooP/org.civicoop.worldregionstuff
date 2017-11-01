@@ -370,8 +370,8 @@ class CRM_Worldregionstuff_Form_Report_WrMemberContributionDetail extends CRM_Re
         'dao' => 'CRM_Core_DAO_Country',
         'fields' => array(
           'region_id' => array(
-            'default' => TRUE,
             'title' => ts('World Region'),
+            'required' => TRUE,
           ),
         ),
         'filters' => array(
@@ -390,7 +390,6 @@ class CRM_Worldregionstuff_Form_Report_WrMemberContributionDetail extends CRM_Re
           'name' => array(
             'name' => 'name',
             'no_display' => TRUE,
-            'title' => 'World Region'
           ),
         ),
       ),
