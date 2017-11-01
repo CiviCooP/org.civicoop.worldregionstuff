@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="org.civicoop.worldregionstuff" type="module">
+  <file>worldregionstuff</file>
+  <name>Several Enhancements based on World Region</name>
+  <description>This extension contains a few customized reports and custom searches adding world region</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Erik Hommel (CiviCooP)</author>
+    <email>erik.hommel@civicoop.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/CiviCooP/org.civicoop.worldregionstuff</url>
+    <url desc="Documentation">https://github.com/CiviCooP/org.civicoop.worldregionstuff</url>
+    <url desc="Support">https://civicoop.org</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2017-11-01</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>Entension is being developed</comments>
+  <civix>
+    <namespace>CRM/Worldregionstuff</namespace>
+  </civix>
+</extension>
