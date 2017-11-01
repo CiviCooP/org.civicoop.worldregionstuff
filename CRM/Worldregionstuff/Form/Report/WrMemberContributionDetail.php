@@ -390,7 +390,6 @@ class CRM_Worldregionstuff_Form_Report_WrMemberContributionDetail extends CRM_Re
           'name' => array(
             'name' => 'name',
             'no_display' => TRUE,
-            'required' => TRUE,
             'title' => 'World Region'
           ),
         ),
