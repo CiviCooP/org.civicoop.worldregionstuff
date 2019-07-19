@@ -181,10 +181,6 @@ class CRM_Worldregionstuff_Form_Report_WrMemberContributionDetail extends CRM_Re
             'title' => ts('Payment Type'),
           ),
           'contribution_source' => array(
-            'title' => ts('Contribution Source'),
-            'operator' => 'like',
-          ),
-          'contribution_source' => array(
             'name' => 'source',
             'default' => TRUE,
             'title' => ts('Contribution Source'),
@@ -223,6 +219,10 @@ class CRM_Worldregionstuff_Form_Report_WrMemberContributionDetail extends CRM_Re
             'type' => CRM_Utils_Type::T_INT,
             'operatorType' => CRM_Report_Form::OP_MULTISELECT,
             'options' => CRM_Contribute_PseudoConstant::paymentInstrument(),
+          ),
+          'contribution_source' => array(
+            'title' => ts('Contribution Source'),
+            'operator' => 'like',
           ),
           'contribution_status_id' => array(
             'title' => ts('Contribution Status'),
